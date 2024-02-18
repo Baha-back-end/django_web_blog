@@ -11,5 +11,5 @@ def index(request):
         "categories": categories,
         "articles": articles
     }
-    return render(request, "index.html", context)
+    return render(request, "main_page.html", context)
 
